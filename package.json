@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "test": "jest --ci --passWithNoTests",
+    "test:watch": "jest --watch"
   },
   "devDependencies": {
     "@types/jest": "29.5.2",
