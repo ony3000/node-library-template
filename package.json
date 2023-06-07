@@ -8,6 +8,7 @@
   "files": [
     "dist"
   ],
+  "types": "./dist/index.d.ts",
   "main": "./dist/demo-lib.umd.cjs",
   "module": "./dist/demo-lib.js",
   "exports": {
@@ -18,7 +19,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && tsc --declaration --emitDeclarationOnly",
     "preview": "vite preview",
     "lint": "eslint src",
     "test": "jest --ci --passWithNoTests",
