@@ -1,8 +1,21 @@
 {
   "name": "node-library-template",
-  "private": true,
   "version": "0.0.0",
+  "description": "Template repository for library project.",
+  "author": "Hyeonjong <nianelo4@gmail.com>",
+  "license": "MIT",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/demo-lib.umd.cjs",
+  "module": "./dist/demo-lib.js",
+  "exports": {
+    ".": {
+      "import": "./dist/demo-lib.js",
+      "require": "./dist/demo-lib.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
