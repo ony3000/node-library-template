@@ -2,6 +2,12 @@
   "name": "node-library-template",
   "version": "0.0.0",
   "description": "Template repository for library project.",
+  "repository": "https://github.com/ony3000/node-library-template",
+  "keywords": [
+    "node",
+    "library",
+    "template"
+  ],
   "author": "Hyeonjong <nianelo4@gmail.com>",
   "license": "MIT",
   "type": "module",
@@ -19,7 +25,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && tsc --declaration --emitDeclarationOnly",
+    "build": "tsc && vite build && tsc -p tsconfig.build.json",
     "preview": "vite preview",
     "lint": "eslint src",
     "test": "jest --ci --passWithNoTests",
