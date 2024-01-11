@@ -15,4 +15,9 @@ export default defineConfig({
       include: ['src/**'],
     }),
   ],
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'src'),
+    },
+  },
 });
