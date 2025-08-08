@@ -2,5 +2,5 @@ This is a [Vite](https://vitejs.dev/) project bootstrapped with [`create-vite`](
 
 ## Required Environment
 
-- Node.js 18
+- Node.js 20
 - [pnpm 9.15.5](https://pnpm.io/)
