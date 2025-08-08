@@ -3,4 +3,4 @@ This is a [Vite](https://vitejs.dev/) project bootstrapped with [`create-vite`](
 ## Required Environment
 
 - Node.js 18
-- [pnpm 8.5.1](https://pnpm.io/)
+- [pnpm 9.15.5](https://pnpm.io/)
